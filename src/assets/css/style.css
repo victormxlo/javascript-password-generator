@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: var(--primaryColor);
+
+}
+
+.container {
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 1%;
+    background: white;
+    max-width: 550px;
+    box-shadow: rgba(0, 0, 0, 0.30) 0px 5px 15px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.senha-gerada {
+    font-size: 20px;
+    margin: 30px 0;
+    border: 1px solid black;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+}
+
+input[type="number"] {
+    padding: 10px 20px;
+}
+
+.gerar-senha {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.gerar-senha:hover {
+    background-color: white;
+    color: black;
+
+}
